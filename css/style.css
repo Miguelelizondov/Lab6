@@ -62,3 +62,7 @@ button {
 .itemShop {
   font-style: italic;
 }
+.classNew {
+  text-decoration: line-through;
+}
+
