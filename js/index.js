@@ -25,7 +25,7 @@ $('.agregar').on('click', function (e) {
 });
 
 $('.Lista').on('click', '.checkButton', function (e) {
-  $(this).parent().css('text-decoration', 'line-through');
+  $(this).parent().toggleClass('classNew');
 });
 
 $('.Lista').on('click', '.deleteButton', function (e) {
